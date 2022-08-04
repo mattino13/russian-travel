@@ -1,0 +1,11 @@
+.column__list {
+  height: 90px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  color: #FFFFFF;
+  margin-top: 33px;
+  margin-bottom: 0;
+  padding: 0;
+}
