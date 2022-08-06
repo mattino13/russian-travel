@@ -7,12 +7,12 @@
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   margin-top: 92px;
-  /*opacity: 0.3;*/
+  
   border: 1px solid red;
 }
 
-.cover__tittle:hover {
-
+.cover:hover {
+  opacity: 0.8;
  
 }
 
@@ -22,11 +22,12 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  text-align: center;  
+  text-align: center;
+  text-decoration: none;
   color: #FFFFFF;
   margin-top: 245px;
   margin-bottom: 0;
-  opacity: 1;
+  z-index: 2;
   
 }
 
