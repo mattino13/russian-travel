@@ -24,7 +24,19 @@
 
   .page {
   font-family: 'Inter', 'Arial', sans-serif;
-  min-width: 1280px;
+  min-width: 1260px;
   margin: 0;
   background-color: #2A2C2F;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    min-width: 1004px;
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .page {
+    min-width: 748px;
+  }
 }

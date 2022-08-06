@@ -15,7 +15,7 @@
   width: 460px;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1;
   color: #FFFFFF;
   margin: 0;
 }
@@ -27,7 +27,10 @@
   line-height: 163%;
   color: #FFFFFF;
   margin-top: 0;
+  margin-bottom: 0;
 }
+
+
 
 .place__website {
   display: flex;
@@ -48,7 +51,42 @@
 .place__link {
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.2;
   text-decoration-line: underline;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+  .place {
+    gap: 48px 32px;
+  }
+  .place__tittle {
+    width: 440px;
+  }
+  .place__paragraph {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+  .place {
+    gap: 48px 28px;
+  }
+  .place__tittle {
+    width: 340px;
+    font-size: 42px;
+    line-height: 1;
+  }
+  .place__paragraph {
+    width: 352px;
+    font-size: 16px;
+  }
 }

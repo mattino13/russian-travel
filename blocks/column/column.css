@@ -3,3 +3,10 @@
   align-self: flex-start;
   border: 1px solid red;
 }
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 720px;
+    margin-left: 24px;
+  }
+}

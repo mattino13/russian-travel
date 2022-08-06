@@ -2,19 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-width: 1184px;
-  min-height: 740px;
+  width: 1184px;
+  height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   margin-top: 92px;
   
-  border: 1px solid red;
+  
 }
 
-.cover:hover {
+/*.cover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background: #2A2C2F;
   opacity: 0.8;
+  
  
-}
+}*/
 
 .cover__tittle {
   width: 560px;
@@ -41,4 +46,10 @@
   color: #FFFFFF;
   margin-top: 32px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+  }
 }

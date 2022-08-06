@@ -5,6 +5,16 @@
   justify-content: center;
   padding-top: 56px;
   margin: 0;
-  width: 984px;
-  border: 1px solid red;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+  width: 928px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .lead {
+  width: 768px;
+  }
 }
