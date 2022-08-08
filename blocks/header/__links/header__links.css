@@ -5,8 +5,13 @@
   padding: 0;
   font-weight: 400;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.16;
   list-style: none;
 }
 
-
+@media screen and (max-width: 320px) {
+  .header__links {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}

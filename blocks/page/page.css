@@ -23,20 +23,27 @@
   }
 
   .page {
-  font-family: 'Inter', 'Arial', sans-serif;
-  min-width: 1260px;
-  margin: 0;
-  background-color: #2A2C2F;
-}
+    font-family: 'Inter', 'Arial', sans-serif;
+    min-width: 1260px;
+    margin: 0;
+    background-color: #2A2C2F;
+    text-rendering: optimizeLegibility;
+  }
 
 @media screen and (max-width: 1024px) {
   .page {
-    min-width: 1004px;
+    min-width: 1024px;
   }
 }
   
 @media screen and (max-width: 768px) {
   .page {
-    min-width: 748px;
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    min-width: 320px;
   }
 }

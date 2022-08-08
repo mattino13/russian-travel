@@ -6,3 +6,17 @@
   margin-top: 92px;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .column__tittle {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .column__tittle {
+    font-size: 32px;
+    line-height: 1;
+    margin-top: 64px;
+  }
+}

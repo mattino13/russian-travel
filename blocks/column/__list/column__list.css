@@ -1,8 +1,7 @@
 .column__list {
-  height: 90px;
   font-weight: 700;
   font-size: 12px;
-  line-height: 18px;
+  line-height: 1.5;
   list-style: none;
   color: #FFFFFF;
   margin-top: 33px;
