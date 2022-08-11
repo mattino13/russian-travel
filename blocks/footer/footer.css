@@ -5,8 +5,15 @@
   padding: 92px 48px 24px;
 }
 
-@media screen and (max-width: 320px) {
-   .footer {
+@media screen and (max-width: 765px) {
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .footer {
     flex-direction: column;
     align-items: flex-start;
     padding: 64px 0 24px 16px;

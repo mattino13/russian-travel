@@ -8,10 +8,59 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
+  .lead__tittle {
+    font-size: 92px;
+    line-height: 1;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .lead__tittle {
+    font-size: 74px;
+    line-height: 1.05;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .lead__tittle {
+    font-size:64px;
+    line-height: 1.06;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .lead__tittle {
+    font-size:56px;
+    line-height: 1.06;
+    max-width: 100%;
+    
+  }
+} 
+
+@media screen and (max-width: 460px) {
+  .lead__tittle {
+    font-size: 52px;
+    line-height: 1.07;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 440px) {
   .lead__tittle {
     font-size: 40px;
     line-height: 1.1;
-    max-width: 288px;  
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__tittle {
+    max-width: 288px;
   }
 }

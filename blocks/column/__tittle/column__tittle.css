@@ -13,7 +13,21 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 720px) {
+  .column__tittle {
+    font-size: 46px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .column__tittle {
+    font-size: 38px;
+    line-height: 1;
+  }
+}
+
+@media screen and (max-width: 520px) {
   .column__tittle {
     font-size: 32px;
     line-height: 1;
