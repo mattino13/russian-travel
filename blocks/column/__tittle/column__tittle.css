@@ -1,13 +1,13 @@
 .column__tittle {
   font-weight: 900;
   font-size: 54px;
-  line-height: 1;
+  line-height: 1.07;
   color: #FFFFFF;
   margin-top: 92px;
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .column__tittle {
     margin-top: 88px;
   }
@@ -16,21 +16,19 @@
 @media screen and (max-width: 720px) {
   .column__tittle {
     font-size: 46px;
-    line-height: 1;
   }
 }
 
 @media screen and (max-width: 620px) {
   .column__tittle {
     font-size: 38px;
-    line-height: 1;
   }
 }
 
 @media screen and (max-width: 520px) {
   .column__tittle {
     font-size: 32px;
-    line-height: 1;
+    line-height: 1.09;
     margin-top: 64px;
   }
 }

@@ -5,8 +5,9 @@
   padding: 92px 48px 24px;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 800px) {
   .footer {
+    padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
   }

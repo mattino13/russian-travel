@@ -1,8 +1,9 @@
 .place__heading {
   font-weight: 400;
   font-size: 12px;
-  line-height: 170%;
+  line-height: 1;
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #AAAAAA;
-  margin: 0;
+  margin-top: 0;
 }
