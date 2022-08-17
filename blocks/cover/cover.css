@@ -39,15 +39,22 @@
   }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 700px) {
   .cover {
-    min-height: calc(670px*0.625);
+    min-height: calc(700px*0.625);
+    margin-top: 66px;
   }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 600px) {
   .cover {
-    min-height: calc(580px*0.625);
+    min-height: calc(600px*0.625); 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover {
+    min-height: calc(500px*0.625);
   }
 }
 
@@ -60,6 +67,5 @@
 @media screen and (max-width: 320px) {
   .cover {
     min-height: 200px;
-    margin-top: 66px; 
   }  
 }

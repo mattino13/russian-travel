@@ -6,6 +6,7 @@
   justify-content: center;
   width: 100%;
   min-height: 740px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1040px) {
@@ -20,6 +21,24 @@
   }
 }
 
+@media screen and (max-width: 700px) {
+  .cover__link {
+    min-height: calc(700px*0.625);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .cover__link {
+    min-height: calc(600px*0.625);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__link {
+    min-height: calc(500px*0.625);
+  }
+}
+
 @media screen and (max-width: 400px) {
   .cover__link {
     min-height: calc(400px*0.625);
@@ -29,6 +48,5 @@
 @media screen and (max-width: 320px) {
   .cover__link {
     min-height: 200px;
-    margin-top: 66px; 
   }  
 }

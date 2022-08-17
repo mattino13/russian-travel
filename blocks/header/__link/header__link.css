@@ -1,6 +1,7 @@
 .header__link {
   color: #FFFFFF;
   text-decoration: none;
+  margin-left: 18px;
 }
 
 .header__link:hover {

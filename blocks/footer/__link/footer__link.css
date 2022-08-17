@@ -35,6 +35,6 @@
     padding-bottom: 32px;
   }
   .footer__link:last-child {
-    padding-bottom: 48px;
+    padding-bottom: 0;
   }
 }
