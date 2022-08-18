@@ -19,6 +19,7 @@
 @import url(../blocks/column/__tittle/column__tittle.css);
 @import url(../blocks/column/__text/column__text.css);
 @import url(../blocks/column/__list/column__list.css);
+@import url(../blocks/column/__list-accent/column__list-accent.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
 @import url(../blocks/places/places.css);
